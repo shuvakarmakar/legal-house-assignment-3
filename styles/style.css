@@ -1,0 +1,55 @@
+#banner-text{
+    padding-bottom: 8rem;
+}
+#banner-text h1{
+    font-weight: 800;
+    font-size: 72px;
+    font-family: 'EB Garamond', serif;
+}
+#legal-practise-header{
+    font-weight: 800;
+    font-size: 40px;
+    font-family: 'EB Garamond', serif;
+}
+#card-group h2{
+    font-family: 'EB Garamond', serif;
+}
+
+/* Responsive */
+@media only screen and (max-width:688px) {
+    
+    #banner-text{
+        padding-top: 0px;
+        padding-bottom: 140px;
+        margin: 0px;
+        height: 10%;
+    }
+    #banner-text h1{
+        font-family: 'EB Garamond', serif;
+        font-size: 16px;
+    }
+    #banner-text-des{
+        font-size: 10px;
+    }
+    #client-review-item-1{
+        font-size: 14px;
+        margin: -155px;
+    }
+    #client-review-item-2{
+        font-size: 14px;
+        margin: -155px;
+    }
+    #client-review-item-3{
+        font-size: 14px;
+        margin: -155px;
+    }
+    
+}
+@media only screen and (min-width:689px) and (max-width: 992px) {
+    
+    #banner-text h1{
+        font-weight: 400;
+        font-size: 35px;
+        font-family: 'EB Garamond', serif;
+    }
+}
